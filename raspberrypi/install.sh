@@ -3,6 +3,7 @@
 # Install the required packages
 apt update
 apt upgrade -y
+curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 apt install nodejs npm  -y
 
 # Install Keynote-Server
