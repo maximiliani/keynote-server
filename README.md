@@ -1,7 +1,7 @@
 # Keynote server
 
 [![CodeQL](https://github.com/maximiliani/keynote-server/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/maximiliani/keynote-server/actions/workflows/github-code-scanning/codeql)
-[![Node.js CI](https://github.com/maximiliani/keynote-server/actions/workflows/node.js.yml/badge.svg)](https://github.com/maximiliani/keynote-server/actions/workflows/node.js.yml)
+[![Node.js CI](https://github.com/maximiliani/keynote-server/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/maximiliani/keynote-server/actions/workflows/node.js.yml)
 
 This is a server where you can upload and manage Apple Keynote presentations for a single signage display. 
 You have to upload the *.zip* compressed file of the presentation.
