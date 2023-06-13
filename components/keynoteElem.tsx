@@ -9,6 +9,7 @@ import Link from "next/link";
 import prisma from "@/lib/prisma";
 import {revalidatePath, revalidateTag} from "next/cache";
 import fs from "fs";
+import {exec} from "child_process";
 
 export default function KeynoteElem({id, title, description, isActive, createdAt}: Keynote) {
     async function deleteKeynote() {
@@ -35,6 +36,12 @@ export default function KeynoteElem({id, title, description, isActive, createdAt
                 isActive: !isActive
             }
         })
+
+        const signageRestart = process.env.KIOSK_RESTART
+        if (signageRestart) {
+            exec(signageRestart)
+        }
+        // exec("systemctl restart keynote-server.service")
 
         revalidatePath(`/`)
         revalidatePath("/present")

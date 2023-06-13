@@ -1,0 +1,15 @@
+[Unit]
+Description=keynote-server
+Documentation=https://github.com/maximiliani/keynote-server
+After=network.target
+
+[Service]
+Environment=NODE_PORT=3000
+Type=simple
+User=root
+WorkingDirectory=/root/keynote-server
+ExecStart=/usr/bin/npm install & /usr/bin/npm build & /usr/bin/npm start
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
