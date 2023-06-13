@@ -7,8 +7,8 @@ After=network.target
 Environment=NODE_PORT=3000
 Type=simple
 User=root
-WorkingDirectory=/root/keynote-server
-ExecStart=/usr/bin/npm install & /usr/bin/npm build & /usr/bin/npm start
+#WorkingDirectory=/root/keynote-server
+ExecStart=/usr/bin/bash /root/keynote-server/raspberrypi/startServer.sh
 Restart=on-failure
 
 [Install]
