@@ -9,7 +9,7 @@ apt install nodejs -y
 # Install Keynote-Server
 #cd /root
 #git clone https://github.com/maximiliani/keynote-server.git
-echo "KIOSK_RESTART="systemctl restart keynote-server.service"" >> /root/keynote-server/.env
+echo 'KIOSK_RESTART="systemctl restart keynote-server.service"' >> /root/keynote-server/.env
 mv /root/keynote-server/raspberrypi/kiosk.service /lib/systemd/system/kiosk.service
 mv /root/keynote-server/raspberrypi/keynote-server.service /lib/systemd/system/keynote-server.service
 
