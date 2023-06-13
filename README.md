@@ -1,5 +1,7 @@
 # Keynote server
 
+[![CodeQL](https://github.com/maximiliani/keynote-server/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/maximiliani/keynote-server/actions/workflows/github-code-scanning/codeql)
+
 This is a server where you can upload and manage Apple Keynote presentations for a single signage display. 
 You have to upload the *.zip* compressed file of the presentation.
 To generate the *.zip* file, you have to go to the menu `File > Export to > HTML` and save the directory. 
