@@ -4,7 +4,7 @@
 apt update
 apt upgrade -y
 curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
-apt install nodejs npm  -y
+apt install nodejs -y
 
 # Install Keynote-Server
 #cd /root
@@ -14,6 +14,8 @@ mv /root/keynote-server/raspberrypi/kiosk.service /lib/systemd/system/kiosk.serv
 mv /root/keynote-server/raspberrypi/keynote-server.service /lib/systemd/system/keynote-server.service
 
 # Enable and start the services
+node -v
+npm -v
 systemctl enable kiosk.service
 systemctl enable keynote-server.service
 systemctl start kiosk.service
