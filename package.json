@@ -19,7 +19,7 @@
     "@radix-ui/react-toggle": "^1.0.3",
     "@types/node": "20.3.1",
     "@types/react": "18.2.12",
-    "@types/react-dom": "18.2.5",
+    "@types/react-dom": "18.2.6",
     "adm-zip": "^0.5.10",
     "autoprefixer": "10.4.14",
     "class-variance-authority": "^0.6.0",
