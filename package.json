@@ -22,7 +22,7 @@
     "@types/react-dom": "18.2.7",
     "adm-zip": "^0.5.10",
     "autoprefixer": "10.4.14",
-    "class-variance-authority": "^0.6.0",
+    "class-variance-authority": "^0.7.0",
     "clsx": "^1.2.1",
     "date-fns": "^2.30.0",
     "decompress": "^4.2.1",
