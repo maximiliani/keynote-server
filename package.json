@@ -17,7 +17,7 @@
     "@radix-ui/react-label": "^2.0.2",
     "@radix-ui/react-slot": "^1.0.2",
     "@radix-ui/react-toggle": "^1.0.3",
-    "@types/node": "20.4.2",
+    "@types/node": "20.4.5",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.7",
     "adm-zip": "^0.5.10",
